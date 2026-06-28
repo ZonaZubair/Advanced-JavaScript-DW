@@ -1,4 +1,4 @@
-<h1>📓 JS Notes — Videos 36-51</h1>
+<h1>📓 JS Notes  Videos 36-51</h1>
 
 <p>
 Code-along notes and annotated exercises covering 4 core JavaScript topics.
@@ -29,14 +29,10 @@ You need **Node.js** installed. Check with:
 node -v
 ```
 
-If that prints a version number, you're good. If not, install Node from [nodejs.org](https://nodejs.org).
+If that prints a version number, you're good. If not, install Node from [nodejs.org](https://nodejs.org). "How to run the file" statement is written in every '.js' and '.mjs' extension file.
 
 Each one prints its exercises step by step to the terminal, with labeled `Exercise 1`, `Exercise 2`, etc.
 
 > **Note:** `es-modules-vs-commonjs.mjs` uses the `.mjs` extension specifically as that's what tells Node to allow `import`/`export` syntax without extra setup.
 
 ---
-
-├── math-helper.mjs
-└── README.md
-```
