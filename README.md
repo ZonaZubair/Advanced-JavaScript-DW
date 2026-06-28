@@ -34,5 +34,3 @@ If that prints a version number, you're good. If not, install Node from [nodejs.
 Each one prints its exercises step by step to the terminal, with labeled `Exercise 1`, `Exercise 2`, etc.
 
 > **Note:** `es-modules-vs-commonjs.mjs` uses the `.mjs` extension specifically as that's what tells Node to allow `import`/`export` syntax without extra setup.
-
----
