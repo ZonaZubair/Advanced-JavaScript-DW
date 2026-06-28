@@ -16,14 +16,14 @@ It explains **inheritance** in JavaScript. Objects can share behavior without co
 const animal = { eats: true };
 const rabbit = Object.create(animal); // rabbit's prototype is now "animal"
 
-console.log(rabbit.eats); // true — not found on rabbit itself, found on its prototype
-console.log(rabbit.hops); // undefined — not found anywhere in the chain
+console.log(rabbit.eats); // true: not found on rabbit itself, found on its prototype
+console.log(rabbit.hops); // undefined: not found anywhere in the chain
 ```
 
 ## Visualizing the chain
 
 ```
-rabbit  →  animal  →  Object.prototype  →  null
+rabbit  ->  animal  ->  Object.prototype  ->  null
 ```
 
 JS walks left to right looking for the property, stopping as soon as it's found.
