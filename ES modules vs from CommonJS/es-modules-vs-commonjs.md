@@ -18,7 +18,7 @@ const { add } = require('./math.js');
 console.log(add(2, 3)); // 5
 ```
 
-CommonJS is **synchronous** — when you call `require()`, Node pauses and loads that file's content right there, on the spot.
+CommonJS is **synchronous** when you call `require()`, Node pauses and loads that file's content right there, on the spot.
 
 ## ES Modules (the modern standard)
 
@@ -35,7 +35,7 @@ import { add } from './math.js';
 console.log(add(2, 3)); // 5
 ```
 
-ES Modules are **static** — imports are figured out before the code even runs, which lets tools optimize and bundle code more efficiently. This is also why ESM works well with `async` loading in browsers.
+ES Modules are **static** imports are figured out before the code even runs, which lets tools optimize and bundle code more efficiently. This is also why ESM works well with `async` loading in browsers.
 
 ## Quick comparison
 
@@ -43,7 +43,7 @@ ES Modules are **static** — imports are figured out before the code even runs,
 |---|---|---|
 | Syntax | `import` / `export` | `require()` / `module.exports` |
 | Used in | Browsers + modern Node.js | Node.js (legacy/default for a long time) |
-| Loading | Static — resolved before code runs | Dynamic — resolved when the line executes |
+| Loading | Static: resolved before code runs | Dynamic: resolved when the line executes |
 | File extension hint | `.mjs` or `"type": "module"` in package.json | `.cjs` or default `.js` in older Node projects |
 
 ## Why it matters
