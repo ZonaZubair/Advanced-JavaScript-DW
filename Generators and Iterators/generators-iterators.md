@@ -24,7 +24,7 @@ console.log(gen.next()); // { value: 3, done: false }
 console.log(gen.next()); // { value: undefined, done: true }
 ```
 
-## Why this is useful
+## Usability
 
 Generators are great for:
 - **Lazy evaluation:** generating values one at a time instead of building a huge array upfront
